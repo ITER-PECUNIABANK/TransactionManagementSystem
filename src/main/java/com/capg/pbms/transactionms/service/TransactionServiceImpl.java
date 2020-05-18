@@ -181,7 +181,7 @@ Map<Long,List<Transaction>> data=new HashMap<>();
 	 -Return Type                      : transaction
 	 -Throws				           :  AccountNotFoundException,AmountException,InsufficientBalanceException
 	 -Author				           : Sriya Agarwal
-	 -Creation Date			           : 05/05/2020
+	 -Creation Date			           : 08/05/2020
 	 -Description			           : saving DebitUsingCheque to database
 	***************************************************************************/
 
@@ -273,8 +273,8 @@ Map<Long,List<Transaction>> data=new HashMap<>();
 	 -Input Parameters                 : accountId,amount,transaction
 	 -Return Type                      : transaction
 	 -Throws				           : AccountNotFoundException,AmountException,InsufficientBalanceException
-	 -Author				           : Rebeca
-	 -Creation Date			           : 28/04/2020
+	 -Author				           : Anurag Mishra
+	 -Creation Date			           : 08/05/2020
 	 -Description			           : saving DebitUsingSlip to database
 	***************************************************************************/
 
