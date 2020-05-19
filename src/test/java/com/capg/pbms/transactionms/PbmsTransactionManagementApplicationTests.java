@@ -10,14 +10,14 @@ import com.capg.pbms.transactionms.service.TransactionServiceImpl;
 @SpringBootTest
 class PbmsTransactionManagementApplicationTests {
  	@Autowired 	
-	TransactionServiceImpl Service; 
+	TransactionServiceImpl service; 
  		@Test
  		public void testAccountId() {
- 			assertEquals(true, Service.isValidAccountId(123456789012L));
+ 			assertEquals(true, service.isValidAccountId(123456789012L));
  		} 
 // 		@Test
 // 		public void getBalanceById() {
-// 			assertEquals(8000.0,Service.getBalanceById(123456789012L));
+// 			assertEquals(8000.0,service.getBalanceById(123456789012L));
 // 		}
 
  		
